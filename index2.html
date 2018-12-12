@@ -105,19 +105,6 @@
     <script src="js/bootstrap.min.js"></script>
 	<script src="js/underscore-min.js"></script>
     <script src="js/gh3.js"></script>
-    <script>
-    var username = new Gh3.User("dawitth")
-  ,	branchProperties = $("ul");
-  var repo = new Gh3.Repositories(username);
-
-  repo.fetch({page:1, per_page:500},"next", function (err, res) {
-    if(err) {
-      console.log("Error");
-    }
-
-   
-  });
-  </script>
 </body>
 
 </html>
