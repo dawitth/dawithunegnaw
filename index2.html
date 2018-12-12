@@ -115,22 +115,7 @@
       console.log("Error");
     }
 
-    repo.eachRepository(function (repository) {
-        var SinRepo = new Gh3.Repository(repository.name, username);
-
-        SinRepo.fetch(function (err, res) {
-          if(err) {
-            console.log("Error", err.message, res.status)
-            throw err
-          }
-			
-			if(SinRepo.fork == false){
-			        branchProperties.append(
-          $('<li>').append('<a href="'+SinRepo.html_url+'" class ="hvr-push">'+SinRepo.name+' : '+SinRepo.description+'</a></li>')
-        );
-		}
-        });
-      });
+   
   });
   </script>
 </body>
