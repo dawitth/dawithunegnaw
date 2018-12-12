@@ -1,4 +1,4 @@
-# Per/Users/dawithunegnaw/Desktop/snl/tmp/TooMinimal-gh-pages/index2.htmlsonal Page
+# Personal Page
 
 
 ## Versions
@@ -17,5 +17,5 @@ Just Change Your Github Username From The Following Line.
 var username = new Gh3.User("dawitth")
 ```
 
-  [1]: http://fr0st1n.github.io/dawithunegnaw/
-  [2]: http://fr0st1n.github.io/dawithunegnaw/index2.html
+  [1]: http://dawitth.github.io/dawithunegnaw/
+  [2]: http://dawitth.github.io/dawithunegnaw/index2.html
